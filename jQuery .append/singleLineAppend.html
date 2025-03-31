@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Line Append with jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Content Header</h1>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#content").append("<p>Added a new paragraph!</p>");
+        });
+    </script>
+</body>
+</html>
